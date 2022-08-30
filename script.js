@@ -1,7 +1,7 @@
 const inputs = document.querySelectorAll('input');
 
 const patterns = { 
-    telephone: /^\d{10}$/,
+    telephone: /^06[7-9]\d{7}$/,
     username: /^[a-z\d]{5,12}$/i,
     password: /^[\w@-]{8,20}$/,
     amesia: /^[a-z ]{3,25}$/i,
