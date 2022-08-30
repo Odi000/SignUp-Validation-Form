@@ -26,6 +26,12 @@ fieldset {
     padding: 2rem 1.5rem;
 }
 
+@media (max-width: 555px) {
+    fieldset {
+        width: 90vw;
+    }
+}
+
 form :not(:last-child) {
     margin-bottom: 1rem;
 }
